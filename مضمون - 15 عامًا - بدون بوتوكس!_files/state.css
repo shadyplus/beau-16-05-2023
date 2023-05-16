@@ -1,0 +1,33 @@
+.prod {
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.prod_text {
+    text-align: center;
+}
+
+.prod_link {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #c23c03;
+    box-shadow: 1px 1px 3px 0 #000;
+    font-size: 22px;
+    line-height: 100%;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 320px;
+    text-align: center;
+    text-transform: none;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .prod_link {
+        font-size: 12px;
+    }
+}
